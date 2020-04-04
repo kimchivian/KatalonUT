@@ -1,0 +1,106 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 49546
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 49547
+[35m[Appium][39m   tmpDir: /var/folders/4h/__cbbynd60z7xmd2jvwfbx100000gp/T//Katalon/Appium/Temp1585978635822
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:49546
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/luthfia.fitriani/Katalon Studio/Test Mobile/APK/fls_81_93bd70c0_staging.apk","noReset":true,"deviceName":"samsung SM-A510F (Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"330062614aa6c251","systemPort":49556},"capabilities":{"firstMatch":[{"appium:app":"/Users/luthfia.fitriani/Katalon Studio/Test Mobile/APK/fls_81_93bd70c0_staging.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A510F (Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":49556,"appium:udid":"330062614aa6c251"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 2728e63b-f41a-4925-939b-ae20abc3213c
+[35m[BaseDriver][39m Using local app '/Users/luthfia.fitriani/Katalon Studio/Test Mobile/APK/fls_81_93bd70c0_staging.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/luthfia.fitriani/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/luthfia.fitriani/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/luthfia.fitriani/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 330062614aa6c251
+[35m[ADB][39m Using 'adb' from '/Users/luthfia.fitriani/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'com.dai.uangteman'
+[35m[ADB][39m Main activity name: 'com.dai.uangteman.view.activity.SplashScreenActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/luthfia.fitriani/.katalon/tools/android_sdk/build-tools/29.0.3/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.dai.uangteman/com.dai.uangteman.view.activity.SplashScreenActivity and waiting for 'com.dai.uangteman/com.dai.uangteman.view.activity.SplashScreenActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 2728e63b-f41a-4925-939b-ae20abc3213c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14894 ms - 1286[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c [39m[32m200[39m [90m9 ms - 1218[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c [39m[32m200[39m [90m12 ms - 1218[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2728e63b)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6650856-8837-44e4-8f91-a639956915e5 with 2728e63b-f41a-4925-939b-ae20abc3213c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source [39m[32m200[39m [90m751 ms - 3668[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot [39m[32m200[39m [90m665 ms - 143160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2728e63b)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6650856-8837-44e4-8f91-a639956915e5 with 2728e63b-f41a-4925-939b-ae20abc3213c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source [39m[32m200[39m [90m452 ms - 13500[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot [39m[32m200[39m [90m642 ms - 151332[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2728e63b)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6650856-8837-44e4-8f91-a639956915e5 with 2728e63b-f41a-4925-939b-ae20abc3213c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source [39m[32m200[39m [90m429 ms - 17658[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot [39m[32m200[39m [90m709 ms - 200498[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2728e63b)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6650856-8837-44e4-8f91-a639956915e5 with 2728e63b-f41a-4925-939b-ae20abc3213c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/source [39m[32m200[39m [90m200 ms - 13500[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c/screenshot [39m[32m200[39m [90m788 ms - 151332[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 2728e63b-f41a-4925-939b-ae20abc3213c from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/2728e63b-f41a-4925-939b-ae20abc3213c [39m[32m200[39m [90m1772 ms - 14[39m
+[35m[HTTP][39m [90m[39m
